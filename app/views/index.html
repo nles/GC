@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GC 0.0.1</title>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/arbor/arbor.js"></script>
+    <script type="text/javascript" src="vendor/arbor/arbor-tween.js"></script>
+    <script type="text/javascript" src="vendor/arbor/arbor-graphics.js"></script>
+    <script type="text/javascript" src="javascripts/main.js"></script>
+    <script type="text/javascript" src="javascripts/arbor_renderer.js"></script>
+    <style>
+      body { margin: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="actions">
+      <button onclick="saveStructure();">save</button>
+      <button onclick="restoreStructure();">restore</button>
+    </div>
+    <canvas id="visual-structure" width="800" height="500"></canvas>
+    <div id="nav"></div>
+  </body>
+</html>
